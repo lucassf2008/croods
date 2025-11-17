@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Administração</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Caixa branca central -->
+    <div class="container-admin">
+        <h1>Painel do Administrador</h1>
+
+        <div>
+            <input type="text" id="buscarCPF" placeholder="Buscar por CPF">
+            <button onclick="buscarPorCPF()">Buscar</button>
+            <button onclick="carregarUsuarios()">Mostrar todos</button>
+        </div>
+
+        <table id="tabelaUsuarios">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Email</th>
+                    <th>CPF</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    
+
+    <script src="../js/admin.js"></script>
+</body>
+</html>

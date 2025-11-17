@@ -1,0 +1,25 @@
+{
+  "pessoas": [
+    {
+      "id": 1,
+      "nome": "Administrador",
+      "email": "admin@playblue.com",
+      "senha": "admin123",
+      "cpf": "00000000000"
+    },
+    {
+      "nome": "rapha",
+      "sobrenome": "lima",
+      "cpf": "467637373",
+      "email": "rapha@lima",
+      "senha": "123",
+      "cep": "08744000",
+      "rua": "Avenida Conceição",
+      "bairro": "Vila Cintra",
+      "cidade": "Mogi das Cruzes",
+      "estado": "SP",
+      "telefone": "123",
+      "id": 2
+    }
+  ]
+}
